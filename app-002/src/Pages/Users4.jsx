@@ -12,8 +12,8 @@ const[show,setShow]=useState(0)
 
    const addPost=()=>{
     
-    setPosts(posts)
-    setTotal(total)
+    setPosts(data.posts)
+    setTotal(data.total)
     setShow(!show)
    }
 

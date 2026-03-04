@@ -10,8 +10,8 @@ export default function Users3(){
 const[show,setShow]=useState(0)
 
     const all=()=>{
-setRecipes(recipes)
-setTotal(total)
+setRecipes(data.recipes)
+setTotal(data.total)
 setShow(!show)
     }
     

@@ -14,8 +14,8 @@ const product =await fetch('https://dummyjson.com/products')
   const [show, setShow] = useState(false);  
   
 const display = ()=>{
-  setProducts(products);
-      setTotal(total);
+  setProducts(data.products);
+      setTotal(data.total);
        setShow(!show);
 }
 

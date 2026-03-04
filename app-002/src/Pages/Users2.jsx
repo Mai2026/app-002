@@ -10,8 +10,8 @@ export default function Users2(){
     const[show,setShow]=useState(0)
 
     const handleCart = ()=> {
-     setCart(carts)
-     setTotal(total)
+     setCart(data.carts)
+     setTotal(data.total)
      setShow(!show)
     }
     
